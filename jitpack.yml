@@ -1,0 +1,6 @@
+jdk:
+  - oraclejdk8
+before_install:
+   - cd /opt/project/html-report && rm -rf node_modules && npm install && npm run build && cd /opt/project && rm -rf composer/src/main/resources/html-report/ && mkdir -p composer/src/main/resources/html-report/ && cp -R html-report/build/* composer/src/main/resources/html-report/
+install:
+   - ./gradlew build
