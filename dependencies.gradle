@@ -22,7 +22,7 @@ ext.libraries = [
         rxJava                 : "io.reactivex:rxjava:$versions.rxJava",
         jCommander             : "com.beust:jcommander:$versions.jCommander",
         commanderOs            : "com.gojuno.commander:os:$versions.commander",
-        commanderAndroid       : "com.gojuno.commander:android:$versions.commander",
+        commanderAndroid       : 'com.github.gojuno:commander:-SNAPSHOT',
         apacheCommonsIo        : "commons-io:commons-io:$versions.apacheCommonsIo",
         apacheCommonsLang      : "org.apache.commons:commons-lang3:$versions.apacheCommonsLang",
         gson                   : "com.google.code.gson:gson:$versions.gson",
